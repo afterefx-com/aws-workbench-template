@@ -32,7 +32,9 @@
 		"ms-python.vscode-pylance",
 		"ms-azuretools.vscode-docker",
 		"ms-python.python",
-		"visualstudioexptteam.vscodeintellicode"
+		"visualstudioexptteam.vscodeintellicode",
+		"amazonwebservices.aws-toolkit-vscode",
+		"redhat.vscode-yaml"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
