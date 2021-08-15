@@ -46,7 +46,6 @@ RUN wget "https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cl
 # [Optional] Uncomment this line to install global node packages.
 RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g aws-cdk" 2>&1
 
-RUN pip install chalice boto3
 # Setting the ENTRYPOINT to docker-init.sh will start up the Docker Engine 
 # inside the container "overrideCommand": false is set in devcontainer.json. 
 # The script will also execute CMD if you need to alter startup behaviors.
